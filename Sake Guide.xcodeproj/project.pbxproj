@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45F670E22DFB69F5006189D0 /* Sake_GuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F670E12DFB69F5006189D0 /* Sake_GuideApp.swift */; };
+		45F670E42DFB69F5006189D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F670E32DFB69F5006189D0 /* ContentView.swift */; };
+		45F670E62DFB69F6006189D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F670E52DFB69F6006189D0 /* Assets.xcassets */; };
+		45F670E92DFB69F6006189D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F670E82DFB69F6006189D0 /* Preview Assets.xcassets */; };
+		45F670F42DFB69F7006189D0 /* Sake_GuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F670F32DFB69F7006189D0 /* Sake_GuideTests.swift */; };
+		45F670FF2DFB69F7006189D0 /* Sake_GuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F670FE2DFB69F7006189D0 /* Sake_GuideUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45F670F02DFB69F7006189D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F670D62DFB69F5006189D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45F670DD2DFB69F5006189D0;
+			remoteInfo = "Sake Guide";
+		};
+		45F670FB2DFB69F7006189D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F670D62DFB69F5006189D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45F670DD2DFB69F5006189D0;
+			remoteInfo = "Sake Guide";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45F670DE2DFB69F5006189D0 /* Sake Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sake Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F670E12DFB69F5006189D0 /* Sake_GuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sake_GuideApp.swift; sourceTree = "<group>"; };
+		45F670E32DFB69F5006189D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45F670E52DFB69F6006189D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45F670E82DFB69F6006189D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45F670EA2DFB69F6006189D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F670EF2DFB69F7006189D0 /* Sake GuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sake GuideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F670F32DFB69F7006189D0 /* Sake_GuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sake_GuideTests.swift; sourceTree = "<group>"; };
+		45F670F52DFB69F7006189D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F670FA2DFB69F7006189D0 /* Sake GuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sake GuideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F670FE2DFB69F7006189D0 /* Sake_GuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sake_GuideUITests.swift; sourceTree = "<group>"; };
+		45F671002DFB69F7006189D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45F670DB2DFB69F5006189D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F670EC2DFB69F7006189D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F670F72DFB69F7006189D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45F670D52DFB69F5006189D0 = {
+			isa = PBXGroup;
+			children = (
+				45F670E02DFB69F5006189D0 /* Sake Guide */,
+				45F670F22DFB69F7006189D0 /* Sake GuideTests */,
+				45F670FD2DFB69F7006189D0 /* Sake GuideUITests */,
+				45F670DF2DFB69F5006189D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45F670DF2DFB69F5006189D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45F670DE2DFB69F5006189D0 /* Sake Guide.app */,
+				45F670EF2DFB69F7006189D0 /* Sake GuideTests.xctest */,
+				45F670FA2DFB69F7006189D0 /* Sake GuideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45F670E02DFB69F5006189D0 /* Sake Guide */ = {
+			isa = PBXGroup;
+			children = (
+				45F670E12DFB69F5006189D0 /* Sake_GuideApp.swift */,
+				45F670E32DFB69F5006189D0 /* ContentView.swift */,
+				45F670E52DFB69F6006189D0 /* Assets.xcassets */,
+				45F670EA2DFB69F6006189D0 /* Info.plist */,
+				45F670E72DFB69F6006189D0 /* Preview Content */,
+			);
+			path = "Sake Guide";
+			sourceTree = "<group>";
+		};
+		45F670E72DFB69F6006189D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45F670E82DFB69F6006189D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45F670F22DFB69F7006189D0 /* Sake GuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				45F670F32DFB69F7006189D0 /* Sake_GuideTests.swift */,
+				45F670F52DFB69F7006189D0 /* Info.plist */,
+			);
+			path = "Sake GuideTests";
+			sourceTree = "<group>";
+		};
+		45F670FD2DFB69F7006189D0 /* Sake GuideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45F670FE2DFB69F7006189D0 /* Sake_GuideUITests.swift */,
+				45F671002DFB69F7006189D0 /* Info.plist */,
+			);
+			path = "Sake GuideUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45F670DD2DFB69F5006189D0 /* Sake Guide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F671032DFB69F7006189D0 /* Build configuration list for PBXNativeTarget "Sake Guide" */;
+			buildPhases = (
+				45F670DA2DFB69F5006189D0 /* Sources */,
+				45F670DB2DFB69F5006189D0 /* Frameworks */,
+				45F670DC2DFB69F5006189D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sake Guide";
+			productName = "Sake Guide";
+			productReference = 45F670DE2DFB69F5006189D0 /* Sake Guide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45F670EE2DFB69F7006189D0 /* Sake GuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F671062DFB69F7006189D0 /* Build configuration list for PBXNativeTarget "Sake GuideTests" */;
+			buildPhases = (
+				45F670EB2DFB69F7006189D0 /* Sources */,
+				45F670EC2DFB69F7006189D0 /* Frameworks */,
+				45F670ED2DFB69F7006189D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45F670F12DFB69F7006189D0 /* PBXTargetDependency */,
+			);
+			name = "Sake GuideTests";
+			productName = "Sake GuideTests";
+			productReference = 45F670EF2DFB69F7006189D0 /* Sake GuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45F670F92DFB69F7006189D0 /* Sake GuideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F671092DFB69F7006189D0 /* Build configuration list for PBXNativeTarget "Sake GuideUITests" */;
+			buildPhases = (
+				45F670F62DFB69F7006189D0 /* Sources */,
+				45F670F72DFB69F7006189D0 /* Frameworks */,
+				45F670F82DFB69F7006189D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45F670FC2DFB69F7006189D0 /* PBXTargetDependency */,
+			);
+			name = "Sake GuideUITests";
+			productName = "Sake GuideUITests";
+			productReference = 45F670FA2DFB69F7006189D0 /* Sake GuideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45F670D62DFB69F5006189D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					45F670DD2DFB69F5006189D0 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					45F670EE2DFB69F7006189D0 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 45F670DD2DFB69F5006189D0;
+					};
+					45F670F92DFB69F7006189D0 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 45F670DD2DFB69F5006189D0;
+					};
+				};
+			};
+			buildConfigurationList = 45F670D92DFB69F5006189D0 /* Build configuration list for PBXProject "Sake Guide" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45F670D52DFB69F5006189D0;
+			productRefGroup = 45F670DF2DFB69F5006189D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45F670DD2DFB69F5006189D0 /* Sake Guide */,
+				45F670EE2DFB69F7006189D0 /* Sake GuideTests */,
+				45F670F92DFB69F7006189D0 /* Sake GuideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45F670DC2DFB69F5006189D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F670E92DFB69F6006189D0 /* Preview Assets.xcassets in Resources */,
+				45F670E62DFB69F6006189D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F670ED2DFB69F7006189D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F670F82DFB69F7006189D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45F670DA2DFB69F5006189D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F670E42DFB69F5006189D0 /* ContentView.swift in Sources */,
+				45F670E22DFB69F5006189D0 /* Sake_GuideApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F670EB2DFB69F7006189D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F670F42DFB69F7006189D0 /* Sake_GuideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F670F62DFB69F7006189D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F670FF2DFB69F7006189D0 /* Sake_GuideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45F670F12DFB69F7006189D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45F670DD2DFB69F5006189D0 /* Sake Guide */;
+			targetProxy = 45F670F02DFB69F7006189D0 /* PBXContainerItemProxy */;
+		};
+		45F670FC2DFB69F7006189D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45F670DD2DFB69F5006189D0 /* Sake Guide */;
+			targetProxy = 45F670FB2DFB69F7006189D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		45F671012DFB69F7006189D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45F671022DFB69F7006189D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45F671042DFB69F7006189D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sake Guide/Preview Content\"";
+				DEVELOPMENT_TEAM = 764AZB9DQW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Sake Guide/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gnm.Sake-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45F671052DFB69F7006189D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sake Guide/Preview Content\"";
+				DEVELOPMENT_TEAM = 764AZB9DQW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Sake Guide/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gnm.Sake-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45F671072DFB69F7006189D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 764AZB9DQW;
+				INFOPLIST_FILE = "Sake GuideTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gnm.Sake-GuideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sake Guide.app/Sake Guide";
+			};
+			name = Debug;
+		};
+		45F671082DFB69F7006189D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 764AZB9DQW;
+				INFOPLIST_FILE = "Sake GuideTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gnm.Sake-GuideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sake Guide.app/Sake Guide";
+			};
+			name = Release;
+		};
+		45F6710A2DFB69F7006189D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 764AZB9DQW;
+				INFOPLIST_FILE = "Sake GuideUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gnm.Sake-GuideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sake Guide";
+			};
+			name = Debug;
+		};
+		45F6710B2DFB69F7006189D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 764AZB9DQW;
+				INFOPLIST_FILE = "Sake GuideUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gnm.Sake-GuideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sake Guide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45F670D92DFB69F5006189D0 /* Build configuration list for PBXProject "Sake Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F671012DFB69F7006189D0 /* Debug */,
+				45F671022DFB69F7006189D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F671032DFB69F7006189D0 /* Build configuration list for PBXNativeTarget "Sake Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F671042DFB69F7006189D0 /* Debug */,
+				45F671052DFB69F7006189D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F671062DFB69F7006189D0 /* Build configuration list for PBXNativeTarget "Sake GuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F671072DFB69F7006189D0 /* Debug */,
+				45F671082DFB69F7006189D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F671092DFB69F7006189D0 /* Build configuration list for PBXNativeTarget "Sake GuideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F6710A2DFB69F7006189D0 /* Debug */,
+				45F6710B2DFB69F7006189D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45F670D62DFB69F5006189D0 /* Project object */;
+}
