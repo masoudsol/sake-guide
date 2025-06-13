@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4565275D2DFB6DAE00B00576 /* Sake.json in Resources */ = {isa = PBXBuildFile; fileRef = 4565275C2DFB6DAE00B00576 /* Sake.json */; };
+		4565275F2DFB905800B00576 /* SakeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565275E2DFB905800B00576 /* SakeDetailView.swift */; };
+		456527602DFB905800B00576 /* SakeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565275E2DFB905800B00576 /* SakeDetailView.swift */; };
+		456527612DFB905800B00576 /* SakeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565275E2DFB905800B00576 /* SakeDetailView.swift */; };
+		456527632DFB91B300B00576 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456527622DFB91B300B00576 /* MapView.swift */; };
+		456527642DFB91B300B00576 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456527622DFB91B300B00576 /* MapView.swift */; };
+		456527652DFB91B300B00576 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456527622DFB91B300B00576 /* MapView.swift */; };
 		45F670E22DFB69F5006189D0 /* Sake_GuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F670E12DFB69F5006189D0 /* Sake_GuideApp.swift */; };
-		45F670E42DFB69F5006189D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F670E32DFB69F5006189D0 /* ContentView.swift */; };
 		45F670E62DFB69F6006189D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F670E52DFB69F6006189D0 /* Assets.xcassets */; };
 		45F670E92DFB69F6006189D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F670E82DFB69F6006189D0 /* Preview Assets.xcassets */; };
 		45F670F42DFB69F7006189D0 /* Sake_GuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F670F32DFB69F7006189D0 /* Sake_GuideTests.swift */; };
 		45F670FF2DFB69F7006189D0 /* Sake_GuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F670FE2DFB69F7006189D0 /* Sake_GuideUITests.swift */; };
+		45F671122DFB6A26006189D0 /* SakeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6710D2DFB6A26006189D0 /* SakeViewModel.swift */; };
+		45F671132DFB6A26006189D0 /* SakeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6710D2DFB6A26006189D0 /* SakeViewModel.swift */; };
+		45F671142DFB6A26006189D0 /* SakeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6710D2DFB6A26006189D0 /* SakeViewModel.swift */; };
+		45F671152DFB6A26006189D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6710F2DFB6A26006189D0 /* ContentView.swift */; };
+		45F671162DFB6A26006189D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6710F2DFB6A26006189D0 /* ContentView.swift */; };
+		45F671172DFB6A26006189D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6710F2DFB6A26006189D0 /* ContentView.swift */; };
+		45F671182DFB6A26006189D0 /* SakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F671112DFB6A26006189D0 /* SakeModel.swift */; };
+		45F671192DFB6A26006189D0 /* SakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F671112DFB6A26006189D0 /* SakeModel.swift */; };
+		45F6711A2DFB6A26006189D0 /* SakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F671112DFB6A26006189D0 /* SakeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4565275C2DFB6DAE00B00576 /* Sake.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Sake.json; sourceTree = "<group>"; };
+		4565275E2DFB905800B00576 /* SakeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakeDetailView.swift; sourceTree = "<group>"; };
+		456527622DFB91B300B00576 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		45F670DE2DFB69F5006189D0 /* Sake Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sake Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F670E12DFB69F5006189D0 /* Sake_GuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sake_GuideApp.swift; sourceTree = "<group>"; };
-		45F670E32DFB69F5006189D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		45F670E52DFB69F6006189D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45F670E82DFB69F6006189D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45F670EA2DFB69F6006189D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +62,9 @@
 		45F670FA2DFB69F7006189D0 /* Sake GuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sake GuideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F670FE2DFB69F7006189D0 /* Sake_GuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sake_GuideUITests.swift; sourceTree = "<group>"; };
 		45F671002DFB69F7006189D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F6710D2DFB6A26006189D0 /* SakeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SakeViewModel.swift; sourceTree = "<group>"; };
+		45F6710F2DFB6A26006189D0 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45F671112DFB6A26006189D0 /* SakeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SakeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +115,14 @@
 		45F670E02DFB69F5006189D0 /* Sake Guide */ = {
 			isa = PBXGroup;
 			children = (
+				45F671102DFB6A26006189D0 /* Models */,
+				45F6710C2DFB6A26006189D0 /* ViewModels */,
+				45F6710E2DFB6A26006189D0 /* Views */,
 				45F670E12DFB69F5006189D0 /* Sake_GuideApp.swift */,
-				45F670E32DFB69F5006189D0 /* ContentView.swift */,
 				45F670E52DFB69F6006189D0 /* Assets.xcassets */,
 				45F670EA2DFB69F6006189D0 /* Info.plist */,
 				45F670E72DFB69F6006189D0 /* Preview Content */,
+				4565275C2DFB6DAE00B00576 /* Sake.json */,
 			);
 			path = "Sake Guide";
 			sourceTree = "<group>";
@@ -128,6 +151,32 @@
 				45F671002DFB69F7006189D0 /* Info.plist */,
 			);
 			path = "Sake GuideUITests";
+			sourceTree = "<group>";
+		};
+		45F6710C2DFB6A26006189D0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				45F6710D2DFB6A26006189D0 /* SakeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		45F6710E2DFB6A26006189D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				45F6710F2DFB6A26006189D0 /* ContentView.swift */,
+				4565275E2DFB905800B00576 /* SakeDetailView.swift */,
+				456527622DFB91B300B00576 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		45F671102DFB6A26006189D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				45F671112DFB6A26006189D0 /* SakeModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4565275D2DFB6DAE00B00576 /* Sake.json in Resources */,
 				45F670E92DFB69F6006189D0 /* Preview Assets.xcassets in Resources */,
 				45F670E62DFB69F6006189D0 /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +309,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F670E42DFB69F5006189D0 /* ContentView.swift in Sources */,
+				4565275F2DFB905800B00576 /* SakeDetailView.swift in Sources */,
+				456527632DFB91B300B00576 /* MapView.swift in Sources */,
+				45F671122DFB6A26006189D0 /* SakeViewModel.swift in Sources */,
+				45F671152DFB6A26006189D0 /* ContentView.swift in Sources */,
 				45F670E22DFB69F5006189D0 /* Sake_GuideApp.swift in Sources */,
+				45F671182DFB6A26006189D0 /* SakeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +322,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				456527602DFB905800B00576 /* SakeDetailView.swift in Sources */,
+				456527642DFB91B300B00576 /* MapView.swift in Sources */,
+				45F671132DFB6A26006189D0 /* SakeViewModel.swift in Sources */,
 				45F670F42DFB69F7006189D0 /* Sake_GuideTests.swift in Sources */,
+				45F671162DFB6A26006189D0 /* ContentView.swift in Sources */,
+				45F671192DFB6A26006189D0 /* SakeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +335,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				456527612DFB905800B00576 /* SakeDetailView.swift in Sources */,
+				456527652DFB91B300B00576 /* MapView.swift in Sources */,
+				45F671142DFB6A26006189D0 /* SakeViewModel.swift in Sources */,
 				45F670FF2DFB69F7006189D0 /* Sake_GuideUITests.swift in Sources */,
+				45F671172DFB6A26006189D0 /* ContentView.swift in Sources */,
+				45F6711A2DFB6A26006189D0 /* SakeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
