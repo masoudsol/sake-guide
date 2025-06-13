@@ -10,8 +10,10 @@ import SwiftUI
 class SakeViewModel: ObservableObject {
     @Published var locations: [SakeModel] = []
     
-    func fetchStories() {
-        if let url = Bundle.main.url(forResource: "Sake", withExtension: "json") {
+    func fetchStories(from data: Data? = nil) {
+        if let data = data {
+            parseData(data)
+        } else if let url = Bundle.main.url(forResource: "Sake", withExtension: "json") {
             do {
                 let data = try Data(contentsOf: url)
                 let decoder = JSONDecoder()
@@ -19,6 +21,15 @@ class SakeViewModel: ObservableObject {
                 self.locations = jsonData
             } catch {
                 print("error:\(error)")
+            }
+        }
+    }
+    
+    private func parseData(_ data: Data) {
+        let decoder = JSONDecoder()
+        if let decoded = try? decoder.decode([SakeModel].self, from: data) {
+            DispatchQueue.main.async {
+                self.locations = decoded
             }
         }
     }

@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Tokyo Sake Bar",
+    "description": "A great place for traditional sake.",
+    "picture": "https://example.com/image.jpg",
+    "rating": 4.7,
+    "address": "123 Sake Lane",
+    "coordinates": [35.6895, 139.6917],
+    "google_maps_link": "https://maps.google.com/example",
+    "website": "https://tokyosakebar.example.com"
+  }
+]
+

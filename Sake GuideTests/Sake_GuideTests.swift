@@ -18,16 +18,26 @@ class Sake_GuideTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testViewModelParsesMockData() {
+        // Load mock data
+        guard let path = Bundle(for: type(of: self)).path(forResource: "TestData", ofType: "json"),
+              let data = try? Data(contentsOf: URL(fileURLWithPath: path)) else {
+            XCTFail("Missing or invalid test JSON file")
+            return
         }
-    }
 
+        let viewModel = SakeViewModel()
+        viewModel.fetchStories(from: data)
+
+        // Give time for async parsing
+        let expectation = XCTestExpectation(description: "Load and parse JSON")
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            XCTAssertEqual(viewModel.locations.count, 1)
+            XCTAssertEqual(viewModel.locations.first?.name, "Tokyo Sake Bar")
+            XCTAssertEqual(viewModel.locations.first?.rating, 4.7)
+            expectation.fulfill()
+        }
+
+        wait(for: [expectation], timeout: 1)
+    }
 }
